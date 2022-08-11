@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: Roboto, sans-serif;
 }
 
 header {
@@ -18,14 +19,20 @@ header {
 
 .header-container {
     display: flex;
+    flex-direction: column;
+    padding: 20px 200px 0px 200px;
+    gap: 110px;
+    margin-bottom: 200px;
+}
+
+.header-nav-container {
+    display: flex;
     justify-content: space-between;
-    padding: 20px 160px 0px 160px;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    font-family: Roboto, sans-serif;
 }
 
 a {
@@ -41,4 +48,41 @@ ul {
 li {
     display: inline;
     margin-left: 12px;
+}
+
+.header-main-container {
+    display: flex;
+    gap: 50px;
+}
+
+.header-main-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center ;
+}
+
+.header-title-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    font-family: Roboto, sans-serif;
+}
+
+.header-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-img {
+    height: auto;
+    width: 600px;
+}
+
+button {
+    width: 65px;
+    padding: 6px;
+    background-color: aqua;
+    border: 4px #1f2937 solid;
+    border-radius: 13px;
 }
