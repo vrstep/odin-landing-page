@@ -22,7 +22,7 @@ header {
     flex-direction: column;
     padding: 20px 200px 0px 200px;
     gap: 110px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .header-nav-container {
@@ -76,13 +76,52 @@ li {
 
 .header-img {
     height: auto;
-    width: 600px;
+    width: 550px;
 }
 
 button {
     width: 65px;
     padding: 6px;
-    background-color: aqua;
+    background-color: #3882f6;
     border: 4px #1f2937 solid;
     border-radius: 13px;
+}
+
+/* Main Section */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 200px 0px 200px;
+}
+
+.random-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+}
+
+.waifu-pic {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;    
+}
+
+img {
+    width: 260px;
+    height: auto;
+    border: 6px #3882f6 solid;
+    border-radius: 25px;
 }
