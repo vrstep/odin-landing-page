@@ -21,7 +21,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 20px 200px 0px 200px;
-    gap: 110px;
+    gap: 95px;
     margin-bottom: 150px;
 }
 
@@ -92,13 +92,14 @@ button {
 .main-container {
     display: flex;
     flex-direction: column;
-    padding: 30px 200px 0px 200px;
+    gap: 95px;
 }
 
 .random-info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px 200px 0px 200px;
     gap: 40px;
 }
 
@@ -116,7 +117,8 @@ button {
 .waifu-pic {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;    
+    text-align: center; 
+    gap: 10px;   
 }
 
 img {
@@ -124,4 +126,29 @@ img {
     height: auto;
     border: 6px #3882f6 solid;
     border-radius: 25px;
+}
+
+.text {
+    font-size: 18px;
+    color: gray;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 150px 200px 150px 200px;
+}
+
+.quote,
+figcaption {
+    font-size: 36px;
+    font-weight: italic;
+    color: #1f2937;
+}
+
+figcaption {
+    margin-left: 500px;
 }
