@@ -85,6 +85,7 @@ li {
     background-color: #3882f6;
     border: 4px #1f2937 solid;
     border-radius: 13px;
+    color: white;
 }
 
 /* Main Section */
@@ -187,5 +188,19 @@ figcaption {
     border-radius: 10px;
     padding: 10px 25px;
     color: #ffffff;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    gap: 6px;
+    padding: 40px 100px;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    color: #f9faf8;
     font-size: 16px;
 }
