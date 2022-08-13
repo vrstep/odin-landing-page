@@ -79,7 +79,7 @@ li {
     width: 550px;
 }
 
-button {
+.header-button {
     width: 65px;
     padding: 6px;
     background-color: #3882f6;
@@ -95,11 +95,11 @@ button {
     gap: 95px;
 }
 
-.random-info-container {
+.random-info-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 200px 0px 200px;
+    padding: 40px 200px 0px 200px;
     gap: 40px;
 }
 
@@ -151,4 +151,41 @@ figcaption {
 
 figcaption {
     margin-left: 500px;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 200px 0 200px;
+    margin-bottom: 150px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 100px
+}
+
+.signup-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.signup-text {
+    color: #d3dceb;
+}
+
+.signup-button {
+    background-color: #3b82f6;
+    border: #ffffff 2px solid;
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: #ffffff;
+    font-size: 16px;
 }
