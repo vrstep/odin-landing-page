@@ -86,6 +86,35 @@ a {
     text-decoration: none;
 }
 
+.information-section {
+    padding: 50px;
+}
+
+.information-section > *{
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.information-section-heading {
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card img {
+    border: 5px solid black;
+    border-radius: 8px;
+    width: 220px;
+    height: 350px;
+    object-fit: cover;
+}
+
 footer {
     display: flex;
     justify-content: center;
