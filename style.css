@@ -115,6 +115,23 @@ a {
     object-fit: cover;
 }
 
+.quote-section {
+    padding: 150px;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote-cite {
+    font-weight: 700;
+    text-align: right;
+}
+
 footer {
     display: flex;
     justify-content: center;
