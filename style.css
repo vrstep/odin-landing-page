@@ -11,8 +11,8 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    gap: 120px;
-    padding: 20px 250px;
+    gap: 100px;
+    padding: 20px 200px;
     background-color: #1f2937;
 }
 
@@ -23,14 +23,17 @@ nav {
 
 .hero-section {
     display: flex;
-    gap: 90px;
+    gap: 250px;
+    align-items: stretch;
 }
 
 .hero-main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 200px;
     gap: 12px;
+    flex: 1;
 }
 
 .logo {
@@ -48,6 +51,14 @@ nav {
 .header-link {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero-img img{
+    /* max-width: 70%; */
+    width: 450px;
+    height: 240px;
+    border-radius: 6px;
+    object-fit: cover;
 }
 
 .hero-btn {
