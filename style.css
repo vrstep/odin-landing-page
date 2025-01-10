@@ -135,7 +135,7 @@ blockquote {
 .cta {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 90px 35px;
 }
 
 .cta-container {
